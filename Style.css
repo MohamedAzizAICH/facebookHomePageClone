@@ -1,0 +1,225 @@
+body{
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+
+#Container1{
+  display: flex;
+  gap: 170px;
+  justify-content: center;
+  background-color: #F0F2F5;
+  padding-top: 150px;
+  padding-bottom: 160px;
+}
+
+
+.partie2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ccc;
+    width: 100%;
+}
+
+#logoFb{
+    width: 220px;
+    height: 120px;
+}
+
+#paragraphe1{
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+}
+
+
+.inputField{
+    padding: 16px;
+    border: 1px solid #c6ccd6;
+    border-radius: 5px ;
+    font-size: 16px;
+    color:#ccc
+}
+
+.inputField:focus{
+    outline: none !important;
+    border: 1px solid #1877F2;
+}
+
+
+#btnLogIn{
+    background-color: #1877F2;
+    border: 2px solid #1071f0;
+    border-radius: 5px ;
+    padding: 16px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+#btnLogIn:hover{
+    background-color:#0b64da ;
+}
+
+#passForget{
+    text-align: center;
+    text-decoration: none;
+    color: #1877F2;
+    font-size: 15px;
+}
+
+#passForget:hover{
+    text-decoration:underline;
+}
+
+#signIn{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+    width: 100%;
+}
+
+#btnSignIn{
+    background-color: #51bb3c;
+    border: 2px solid #51bb3c;
+    border-radius: 5px ;
+    padding: 16px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btnSignIn:hover{
+    background-color: #259c0d;
+}
+
+#createPage{
+    text-decoration: none;
+    color: black;
+}
+
+#createPage:hover{
+    text-decoration: underline;
+}
+footer{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 32px 0 10px 300px;
+}
+
+#footerList1{
+    display:inline-flex;
+    list-style: none;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#footerList2{
+    display:inline-flex;
+    list-style: none;
+    gap: 27px;
+    flex-wrap: wrap;
+}
+
+#footerList3{
+    display:inline-flex;
+    list-style: none;
+    gap: 23px;
+    flex-wrap: wrap;
+}
+    
+.footerLink{
+    text-decoration: none;
+    color: #90949c;
+    font-size: 11px;
+}
+
+.footerLink:hover{
+    text-decoration: underline;
+    
+}
+
+.society{  text-decoration: none;
+    color: #90949c;
+    font-size: 11px;}
+
+
+#footerHR{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+    width:77%;
+    margin:0;
+}
+
+
+
+
+@media all and (max-width: 1000px) {
+
+    #Container1{
+        padding-top: 0;
+        gap:10px;
+        display: flex;
+        flex-direction: column;
+        background-color: #F0F2F5;
+        padding-bottom: 100px;
+        padding: 16px;
+      }
+
+      #paragraphe1{
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+      }
+
+
+      #form{
+        display: flex;
+        flex-direction: column;
+        gap:14px;
+        background-color: white;
+        padding: 16px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px #ccc;
+        width: 80%;
+    }
+    
+   
+   
+footer{
+    padding-left: 32px;
+
+}
+
+}
+
+
+@media all and (max-width: 1400px) {
+footer{
+    padding: 32px 0 10px 10px;
+}
+}
